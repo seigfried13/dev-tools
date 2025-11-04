@@ -43,15 +43,7 @@
             "source": "./",
             "description": "Personal dev workflow core tools",
             "version": "0.1.0",
-            "author": {
-                "name": "Spencer Blecha",
-                "email": "sblecha@gmail.com"
-            },
-            "homepage": "https://github.com/seigfried13",
-            "repository": "",
             "license": "MIT",
-            "keywords": [],
-            "category": "",
             "commands": [
                 "./superpowers/commands/brainstorm.md",
                 "./superpowers/commands/execute-plan.md",

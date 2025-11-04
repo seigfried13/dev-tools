@@ -1,10 +1,17 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(git remote:*)",
+      "Bash(git rm:*)",
+      "Bash(git submodule add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": false,
   "enabledMcpjsonServers": [
     "svelte",
     "superdesign",
     "context7",
     "docling",
     "@21st-dev/magic"
-  ],
-  "enableAllProjectMcpServers": false
+  ]
 }

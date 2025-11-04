@@ -1,0 +1,15 @@
+[submodule "anthropics/skills"]
+	path = anthropics/skills
+	url = https://github.com/anthropics/skills.git
+[submodule "ccpm"]
+	path = ccpm
+	url = https://github.com/automazeio/ccpm.git
+[submodule "mcp-servers/skill-seekers"]
+	path = mcp-servers/skill-seekers
+	url = https://github.com/yusufkaraaslan/Skill_Seekers.git
+[submodule "mcp-servers/superdesign-mcp-claude-code"]
+	path = mcp-servers/superdesign-mcp-claude-code
+	url = https://github.com/jonthebeef/superdesign-mcp-claude-code.git
+[submodule "superpowers"]
+	path = superpowers
+	url = https://github.com/obra/superpowers.git
