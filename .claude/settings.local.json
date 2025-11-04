@@ -1,0 +1,10 @@
+{
+  "enabledMcpjsonServers": [
+    "svelte",
+    "superdesign",
+    "context7",
+    "docling",
+    "@21st-dev/magic"
+  ],
+  "enableAllProjectMcpServers": false
+}

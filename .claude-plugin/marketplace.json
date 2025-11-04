@@ -1,0 +1,84 @@
+{
+    "name": "9icu-marketplace",
+    "owner": {
+        "name": "Spencer Blecha",
+        "email": "sblecha@gmail.com"
+    },
+    "metadata": {
+        "description": "Personal Curated Claude Code plugins: skills, workflows, and productivity tools",
+        "version": "0.1.0"
+    },
+    "plugins": [
+        {
+            "name": "utility",
+            "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/document-skills/xlsx",
+                "./skills/document-skills/docx",
+                "./skills/document-skills/pptx",
+                "./skills/document-skills/pdf"
+            ]
+        },
+        {
+            "name": "design",
+            "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/skill-creator",
+                "./skills/mcp-builder",
+                "./skills/canvas-design",
+                "./skills/algorithmic-art",
+                "./skills/internal-comms",
+                "./skills/webapp-testing",
+                "./slack-gif-creator",
+                "./skills/theme-factory",
+                "./skills/brand-guidelines"
+            ]
+        },
+        {
+            "name": "core-tools",
+            "source": "./",
+            "description": "Personal dev workflow core tools",
+            "version": "0.1.0",
+            "author": {
+                "name": "Spencer Blecha",
+                "email": "sblecha@gmail.com"
+            },
+            "homepage": {},
+            "repository": {},
+            "license": "MIT",
+            "keywords": [],
+            "category": {},
+            "commands": [
+                "./superpowers/commands/brainstorm.md",
+                "./superpowers/commands/execute-plan.md",
+                "./superpowers/commands/write-plan.md"
+            ],
+            "agents": [
+                "./superpowers/agents/code-reviewer.md"
+            ],
+            "hooks": {
+                "SessionStart": [
+                    {
+                        "matcher": "startup|resume|clear|compact",
+                        "hooks": [
+                            {
+                                "type": "command",
+                                "command": "${CLAUDE_PLUGIN_ROOT}/superpowers/hooks/session-start.sh"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "skills": [
+                "./superpowers/skills",
+                "./anthropics/skills/mcp-builder"
+            ],
+            "mcpServers": 
+                "./.core-mcp.json"
+        }
+    ]
+}

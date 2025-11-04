@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "context7": {
+            "type": "http",
+            "url": "https://mcp.context7.com/mcp",
+            "headers": {
+                "CONTEXT7_API_KEY": "ctx7sk-14eb830b-ec91-4f62-9b15-988564dfd717"
+            }
+        },
+        "skill-seeker": {
+            "command": "python3",
+            "args": [
+                "/mnt/c/Users/sblec/Projects/dev-tools/mcp-servers/skill-seekers/mcp/server.py"
+            ],
+            "cwd": "/mnt/c/Users/sblec/Projects/dev-tools/mcp-servers/skill-seekers"
+        }
+    }
+}
