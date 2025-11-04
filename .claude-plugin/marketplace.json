@@ -51,7 +51,7 @@
             "repository": "",
             "license": "MIT",
             "keywords": [],
-            "category": {},
+            "category": "",
             "commands": [
                 "./superpowers/commands/brainstorm.md",
                 "./superpowers/commands/execute-plan.md",
