@@ -10,7 +10,7 @@
         "skill-seeker": {
             "command": "python3",
             "args": [
-                "${CLAUDE_PLUGIN_ROOT}/mcp-servers/skill-seekers/mcp/server.py"
+                "${CLAUDE_PLUGIN_ROOT}/mcp-servers/skill-seekers/skill_seeker_mcp/server.py"
             ],
             "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/skill-seekers"
         }
