@@ -10,9 +10,9 @@
         "skill-seeker": {
             "command": "python3",
             "args": [
-                "/mnt/c/Users/sblec/Projects/dev-tools/mcp-servers/skill-seekers/mcp/server.py"
+                "${CLAUDE_PLUGIN_ROOT}/mcp-servers/skill-seekers/mcp/server.py"
             ],
-            "cwd": "/mnt/c/Users/sblec/Projects/dev-tools/mcp-servers/skill-seekers"
+            "cwd": "${CLAUDE_PLUGIN_ROOT}/mcp-servers/skill-seekers"
         }
     }
 }
