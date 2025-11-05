@@ -12,7 +12,7 @@
     "https://docs.claude.com/en/docs/claude-code/iam"
   ],
   "selectors": {
-    "main_content": "#content-container",
+    "main_content": "container",
     "title": "h1",
     "code_blocks": "pre code"
   },

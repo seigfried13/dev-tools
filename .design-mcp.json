@@ -16,21 +16,6 @@
             ],
             "env": {}
         },
-        "context7": {
-            "type": "http",
-            "url": "https://mcp.context7.com/mcp",
-            "headers": {
-                "CONTEXT7_API_KEY": "ctx7sk-14eb830b-ec91-4f62-9b15-988564dfd717"
-            }
-        },
-        "docling": {
-            "transport": "stdio",
-            "command": "uvx",
-            "args": [
-                "--from=docling-mcp",
-                "docling-mcp-server"
-            ]
-        },
         "@21st-dev/magic": {
             "command": "cmd",
             "args": [

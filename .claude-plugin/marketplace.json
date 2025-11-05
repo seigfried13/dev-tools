@@ -10,8 +10,8 @@
     },
     "plugins": [
         {
-            "name": "utility",
-            "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+            "name": "util-tools",
+            "description": "Collection of utility skills including Excel, Word, PowerPoint, and PDF capabilities",
             "source": "./",
             "strict": false,
             "skills": [
@@ -22,13 +22,12 @@
             ]
         },
         {
-            "name": "design",
-            "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+            "name": "design-tools",
+            "description": "Collection skills focusing on frontend design-oriented tasks and brand-guideline development and adherence",
             "source": "./",
             "strict": false,
             "skills": [
                 "./skills/skill-creator",
-                "./skills/mcp-builder",
                 "./skills/canvas-design",
                 "./skills/algorithmic-art",
                 "./skills/internal-comms",
@@ -36,7 +35,8 @@
                 "./slack-gif-creator",
                 "./skills/theme-factory",
                 "./skills/brand-guidelines"
-            ]
+            ],
+            "mcpServers": "./.design-mcp.json"
         },
         {
             "name": "core-tools",
@@ -69,8 +69,7 @@
                 "./superpowers/skills",
                 "./anthropics/skills/mcp-builder"
             ],
-            "mcpServers": 
-                "./.core-mcp.json"
+            "mcpServers": "./.core-mcp.json"
         }
     ]
 }

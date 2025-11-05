@@ -1,5 +1,15 @@
 {
     "mcpServers": {
+        "gemini-cli": {
+            "type": "stdio",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "gemini-mcp-tool"
+            ],
+            "env": {}
+        },
         "context7": {
             "type": "http",
             "url": "https://mcp.context7.com/mcp",
