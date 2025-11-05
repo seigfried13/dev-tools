@@ -15,10 +15,10 @@
             "source": "./",
             "strict": false,
             "skills": [
-                "./skills/document-skills/xlsx",
-                "./skills/document-skills/docx",
-                "./skills/document-skills/pptx",
-                "./skills/document-skills/pdf"
+                "./anthropics/skills/document-skills/xlsx",
+                "./anthropics/skills/document-skills/docx",
+                "./anthropics/skills/document-skills/pptx",
+                "./anthropics/skills/document-skills/pdf"
             ]
         },
         {
@@ -27,14 +27,14 @@
             "source": "./",
             "strict": false,
             "skills": [
-                "./skills/skill-creator",
-                "./skills/canvas-design",
-                "./skills/algorithmic-art",
-                "./skills/internal-comms",
-                "./skills/webapp-testing",
-                "./slack-gif-creator",
-                "./skills/theme-factory",
-                "./skills/brand-guidelines"
+                "./anthropics/skills/skill-creator",
+                "./anthropics/skills/canvas-design",
+                "./anthropics/skills/algorithmic-art",
+                "./anthropics/skills/internal-comms",
+                "./anthropics/skills/webapp-testing",
+                "./anthropics/skills/slack-gif-creator",
+                "./anthropics/skills/theme-factory",
+                "./anthropics/skills/brand-guidelines"
             ],
             "mcpServers": "./.design-mcp.json"
         },
