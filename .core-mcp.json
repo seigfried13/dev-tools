@@ -17,15 +17,15 @@
                 "CONTEXT7_API_KEY": "ctx7sk-14eb830b-ec91-4f62-9b15-988564dfd717"
             }
         },
-        "skill-seeker-mcp": {
+        "skill-seekers-mcp": {
             "command": "docker",
             "args": [
                 "run",
                 "-i",
                 "--rm",
                 "-v",
-                "${CLAUDE_PLUGIN_ROOT}/skill-seeker-mcp:/app/output",
-                "ghcr.io/seigfried13/skill-seeker-mcp:latest"
+                "${CLAUDE_PLUGIN_ROOT}/skill-seekers-mcp:/app/output",
+                "ghcr.io/seigfried13/skill-seekers-mcp:latest"
             ],
             "env": {}
         }
