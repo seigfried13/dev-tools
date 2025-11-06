@@ -9,7 +9,7 @@ If the primary script fails, you should attempt to use the following fallback co
 
 - **Jest**: `npm test -- --testPathPattern=<test_file>`
 - **Pytest**: `pytest <test_file>`
-- **Cargo**: `cargo test --test <test_name>`
+- **Cargo**: `cargo test <test_filter>`
 - **Maven**: `mvn -Dtest=<TestClass> test`
 
 Your goal is to provide a clear and actionable summary of the test results, focusing on any failures or errors.
